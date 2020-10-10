@@ -1,0 +1,1 @@
+./mwnw clean package
