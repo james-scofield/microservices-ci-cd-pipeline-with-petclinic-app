@@ -8,9 +8,9 @@ public class PetTest {
         //Arrange
         Pet pet = new Pet();
         //Act
-        pet.setName("Fluff");
+        pet.setName("Fluffy");
         //Assert
-        assertEquals("Fluff", pet.getName());
+        assertEquals("Fluffy", pet.getName());
     }
     @Test
     public void testGetOwner(){
