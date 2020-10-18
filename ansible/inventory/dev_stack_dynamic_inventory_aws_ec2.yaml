@@ -5,8 +5,8 @@ filters:
   tag:app-stack-name: APP_STACK_NAME
   tag:environment: dev
   
-  hostnames:
+hostnames:
   - "private-ip-address"
-  
-  compose: 
+
+compose: 
   ansible_user: "'ec2-user'"
