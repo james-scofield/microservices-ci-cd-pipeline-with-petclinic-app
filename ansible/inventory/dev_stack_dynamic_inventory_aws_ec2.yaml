@@ -3,6 +3,9 @@ regions:
   - "us-east-1"
 filters:
   tag:app-stack-name: APP_STACK_NAME
-  tag:environment: devhostnames:
-  - "private-ip-address"compose: 
+  tag:environment: dev
+  
+  hostnames:
+  - "private-ip-address"
+  compose: 
   ansible_user: "'ec2-user'"
