@@ -6,6 +6,6 @@
     with_fileglob: "{{ workspace }}/selenium-jobs/dummy*.py"
     register: output  
   
-    - name: show results
+  - name: show results
     debug: msg="{{ item.stdout }}"
     with_items: "{{ output.results }}"
