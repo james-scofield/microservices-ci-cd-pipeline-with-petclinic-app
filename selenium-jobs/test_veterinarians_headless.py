@@ -26,4 +26,6 @@ vet_link.click()
 sleep(1)
 verify_table = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.TAG_NAME, "table")))
 
-print("Table loaded")driver.quit()
+print("Table loaded")
+
+driver.quit()
