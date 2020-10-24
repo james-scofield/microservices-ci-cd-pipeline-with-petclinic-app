@@ -116,7 +116,7 @@ services:
     - 3000:3000  
   prometheus-server:
     image: "${IMAGE_TAG_PROMETHEUS_SERVICE}"
-networks:
+    networks:
       - clarusnet
     ports:
     - 9091:9090
